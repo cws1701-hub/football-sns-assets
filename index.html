@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>유럽축구 하이라이트·리뷰</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --card: #161b22;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #3fb950;
+    --border: #30363d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  header { margin-bottom: 40px; }
+  .badge {
+    display: inline-block;
+    font-size: 13px;
+    color: var(--accent);
+    background: rgba(63, 185, 80, 0.15);
+    border: 1px solid rgba(63, 185, 80, 0.3);
+    border-radius: 999px;
+    padding: 4px 12px;
+    margin-bottom: 16px;
+  }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  .sub { color: var(--muted); font-size: 16px; margin: 0; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .card h2 { font-size: 18px; margin: 0 0 10px; }
+  .card p { color: var(--muted); margin: 0; font-size: 15px; }
+  ul { padding-left: 20px; color: var(--muted); font-size: 15px; }
+  li { margin-bottom: 6px; }
+  .leagues {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .leagues span {
+    font-size: 13px;
+    color: var(--text);
+    background: #21262d;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 10px;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="badge">유럽축구 하이라이트 · 리뷰</span>
+      <h1>경기 끝나고, 핵심만 다시 보는 채널</h1>
+      <p class="sub">득점·카드 타임라인, 자체 선정 MOM, 리그 순위 변동까지 — 자체 제작 그래픽으로 정리한 유럽 5대 리그 + 챔피언스리그 경기 리뷰</p>
+    </header>
+
+    <div class="card">
+      <h2>이 채널은 무엇을 다루나요</h2>
+      <ul>
+        <li>경기 결과와 득점/카드 흐름을 자체 제작 그래픽(스탯카드, 순위표, 타임라인)으로 정리</li>
+        <li>MOM(Man of the Match)과 평점은 여러 자료를 참고해 자체적으로 재해석해 선정</li>
+        <li>캐스터 톤 70% + 예능 자막 30%로, 스코어를 바로 공개하지 않고 긴장감 있게 전달</li>
+        <li>선수·감독에 대한 인신공격이나 비하 없이, 결과에 대한 유머만 사용</li>
+      </ul>
+      <div class="leagues">
+        <span>프리미어리그</span>
+        <span>라리가</span>
+        <span>분데스리가</span>
+        <span>세리에A</span>
+        <span>리그1</span>
+        <span>UEFA 챔피언스리그</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>저작권 원칙</h2>
+      <p>방송사 중계 화면이나 하이라이트 영상은 사용하지 않습니다. 모든 영상은 자체 제작한
+      그래픽 카드와 음성 나레이션으로만 구성되며, 배경음악은 로열티 프리 음원만 사용합니다.
+      영상이 필요한 경우 구단·리그의 공식 채널 임베드/링크만 공유합니다.</p>
+    </div>
+
+    <footer>
+      이 페이지는 영상 자산 호스팅 저장소의 소개 페이지입니다 ·
+      <a href="privacy.html">개인정보처리방침</a>
+    </footer>
+  </div>
+</body>
+</html>
